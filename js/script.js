@@ -26,7 +26,7 @@ elForm.addEventListener("submit", function(evt){
   var trainTime = (elInputValue / trainSpeed).toFixed(1);
 
   if (elInputValue <= minValue) {
-    alert("Add positive numbers!")
+    alert("minusli son kiritmang!")
   } else {
     document.querySelector(".site-foot").textContent = `${footTime} soat`;
     document.querySelector(".site-bike").textContent = `${bikeTime} soat`;
