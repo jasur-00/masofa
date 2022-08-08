@@ -1,6 +1,5 @@
 var elForm = document.querySelector(".site-form");
 var elInput = document.querySelector(".site-input");
-// var elBtn = document.querySelector(".way-btn");
 var elSiteList = document.querySelector(".site-list");
 var elTimeFoot = elSiteList.querySelector(".site-foot");
 var elTimeBike = elSiteList.querySelector(".site-bike");
